@@ -12,6 +12,8 @@ namespace PracticaRecursion
         {
             Console.Write("Ingrese un numero: ");
             
+            // En C# todo lo que venga de la consola es en formato de string
+            // es por esto que es NECESARIO realizar casteo
             int n = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine("\nEl factorial de {0} es: {1}", n, Factorial(n));
